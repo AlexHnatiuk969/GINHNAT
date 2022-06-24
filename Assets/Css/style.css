@@ -40,7 +40,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg,#0000008c 0%, #0000008c 100% ), url(../GINHNAT/Assets/images/heroimg.jpg);
+    background-image: linear-gradient(180deg,#0000008c 0%, #0000008c 100% ), url(/Assets/images/heroimg.jpg);
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
@@ -277,4 +277,150 @@ margin-bottom: 15px;
     --color-cta: #fff;
     --color-items:#fff;
 }
-gyjfiufoufou
+
+/* TESTIMONIOS */
+
+.testimony{
+    background-color:#e5e5f7;
+
+}
+
+.testimony__container{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+}
+
+.testimony__body{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.testimony__body--show{
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.testimony__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+.testimony__texts{
+    max-width: 700px;
+}
+
+.testimony__course{
+    background-color: royalblue;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+
+.testimony__arrow{
+    width: 90%;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: var(--color-tittle);
+
+}
+
+.footer__tittle{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+    
+}
+
+.nav--footer{
+    padding-bottom: 20px;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: row;
+    height: 100%;
+}
+
+.nav__link--footer{
+    display: flex;
+    margin: 0;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.footer__copy{
+    --padding-container: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer__copyright{
+    font-weight: 300;
+
+}
+
+.footer__icons{
+    display: inline-flex;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:800px){
+    .nav__menu{
+        display: block;
+    }
+    .nav__link--menu{
+        position: fixed;
+        background-color: black;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 100;
+        opacity: 0;
+        pointer-events: none;
+        transition: .7s opacity;
+
+    }
+
+    .nav__link--show{
+        --show:block;
+        opacity: 1;
+        pointer-events: unset;
+
+    }
+}

@@ -7,13 +7,13 @@
   <title>GINHNAT</title>
   <link rel="shortcut icon" href="./Assets/images/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="./Assets/Css/Normalize.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./Assets/Css/style.css">
 </head>
 <body>
   <header class="hero">
     <nav class="nav container">
       <div class="nav__logo">
-        <h2 class="nav__tittle">GINHNAT</h2>
+        <h2 class="nav__tittle">HG SERVICIOS</h2>
       </div>
 
       <ul class="nav__link nav__link--menu">
@@ -23,12 +23,22 @@
         </li>
         <li class="nav__items">
           <a class="nav__links" href="#">Nosotros</a>
+        </li>
+
+        <li class="nav__items">
+            <a class="nav__links" href="#">Contacto</a>
+  
+          </li>
+        
+        <li class="nav__items">
+          <a class="nav__links" href="./login.html">Login</a>
 
         </li>
         <li class="nav__items">
-          <a class="nav__links" href="#">Contacto</a>
+          <a class="nav__links cta" href="./register.html">Eres nuevo? registrate</a>
 
         </li>
+       
 
         <img class="nav__close" src="./Assets/images/close.svg" alt="nav__close">
       </ul>
@@ -40,7 +50,7 @@
 
     <section class="hero__container">
       <h1 class="hero__tittle">obtén la propia página web para tu negocio</h1>
-      <p class="hero__paragraph"> a travez de accesibles precios podras tener tu propia pagina web para impulsar tu negocio y que futuros clientes conoscan tus productos! <br> <a href="#" class="cta">Comienza ahora</a>
+      <p class="hero__paragraph"> a travez de accesibles precios podras tener tu propia pagina web para impulsar tu negocio y que futuros clientes conoscan tus productos! <br> <a href="./register.html" class="cta">Comienza ahora</a>
       </p>
     </section>
   </header>
@@ -78,7 +88,7 @@
         <div class="knowledge_texts">
         <h2 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, unde.</h2>
         <p class="knowledge__paragrph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum neque dicta, nemo, sequi totam quidem deleniti, ut accusantium magni corporis fuga. Culpa, possimus error dignissimos maxime architecto labore iure debitis?</p>
-        <a href="#" class="cta">entra ahora</a>
+        <a href="./login.html" class="cta">entra ahora</a>
         </div>
       
       <figure class="knowledge__picture">
@@ -134,7 +144,79 @@
         </div>
       </div>
     </section>
+
+    <section class="testimony">
+      <div class="testimony__container container">
+        <img src="./Assets/images/arrowleft.svg" class="testimony__arrow" id="before">
+        
+        <section class="testimony__body testimony__body--show" data-id="1">
+          <div class="testimony__texts">
+            <h2 class="subtittle">Mi nombre es pepito, <span class="testimony__course"> Ferretero</span></h2>
+            <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eaque expedita. Iusto illum, soluta totam velit fugit ut rerum cum.</p>
+          </div>
+          <figure class="testimony__picture">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="testimony__img">
+          </figure>
+        </section>
+        <section class="testimony__body" data-id="2">
+          <div class="testimony__texts">
+            <h2 class="subtittle">Mi nombre es cristina, <span class="testimony__course"> almacenera</span></h2>
+            <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eaque expedita. Iusto illum, soluta totam velit fugit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci distinctio sapiente tempore reiciendis eaque voluptates odio repellat modi consequuntur..</p>
+          </div>
+          <figure class="testimony__picture">
+            <img src="https://images.unsplash.com/photo-1557296387-5358ad7997bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=457&q=80" class="testimony__img">
+          </figure>
+        </section>
+        <section class="testimony__body testimony" data-id="3">
+          <div class="testimony__texts">
+            <h2 class="subtittle">Mi nombre es richar, <span class="testimony__course"> panadero</span></h2>
+            <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eaque expedita. Iusto illum, soluta totam velit fugit ut rerum cum.</p>
+          </div>
+          <figure class="testimony__picture">
+            <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=399&q=80" class="testimony__img">
+          </figure>
+        </section>
+        <img src="./Assets/images/arrowright.svg" class="testimony__arrow" id="next">
+      </div>
+    </section>
+
+
+    <footer>
+      <section class="footer__container container">
+        <nav class="nav nav--footer">
+          <h2 class="footer__tittle"> Footer</h2>
+          <ul class="nav__link nav__link--footer">
+
+            <ul class="nav__link nav__link--menu">
+              <li class="nav__items">
+                <a class="nav__links" href="#">Inicio</a>
+      
+              </li>
+              <li class="nav__items">
+                <a class="nav__links" href="#">Nosotros</a>
+              </li>
+      
+              <li class="nav__items">
+                  <a class="nav__links" href="#">Contacto</a>
+        
+                </li>
+
+                <section class="footer__copy container">
+                  <div class="footer__social">
+                    <a href="#" class="footer__icons"><img src="./Assets/images/facebook.svg" class="footer__img"></a>
+                    <a href="#" class="footer__icons"><img src="./Assets/images/instagram.svg" class="footer__img"></a>
+                  </div>
+
+                  <h3 class="footer__copyright">Derechos reservados Alex Hnatiuk  </h3>
+                </section>
+
+          </ul>
+        </nav>
+      </section>
+    </footer>
+
   </main>
-  
+  <script src="./js/slider.js"></script>
+  <script src="./js/menu.js"></script>
 </body>
 </html>
