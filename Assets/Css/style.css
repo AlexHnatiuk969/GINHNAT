@@ -123,7 +123,7 @@ body{
 
 .cta{
     display: inline-block;
-    background-color: darkblue;
+    background-color: var(--color-tittle);
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -324,7 +324,7 @@ margin-bottom: 15px;
 }
 
 .testimony__course{
-    background-color: royalblue;
+    background-color: var(--color-tittle);
     color: #fff;
     display: inline-block;
     padding: 5px;
