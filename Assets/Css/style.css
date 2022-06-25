@@ -4,6 +4,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --padding-container: 100px 0;
 
