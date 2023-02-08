@@ -34,7 +34,7 @@ body {
   .left-side {
       background-image: url(/Assets/images/HGserviciosLOGO.png);
       background-position: center;
-      background-size: cover;
+      background-size:cover;
       border-radius: 15px 0 0 15px;
   }
   
