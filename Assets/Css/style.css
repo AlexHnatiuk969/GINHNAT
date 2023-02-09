@@ -85,6 +85,8 @@ html{
 
 .nav__items{
     list-style: none;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -134,7 +136,8 @@ html{
 }
 
 .hero__paragraph{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 .cta{
@@ -143,8 +146,10 @@ html{
     justify-self: center;
     color: #fff;
     text-decoration: none;
-    padding: 13px 30px;
+    padding: 15px 30px;
     border-radius: 32px;
+    margin-top: 5px;
+    
 
 }
 
