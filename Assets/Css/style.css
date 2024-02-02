@@ -280,6 +280,11 @@ margin-bottom: 15px;
 
 }
 
+.icon_v{
+    display: inline-block;
+    align-items: center;
+}
+
 .price__cta{
     display: block;
     padding: 20px 0;
